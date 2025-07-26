@@ -1,0 +1,380 @@
+@media(max-width : 350px){
+     .nav_section{
+     	background : linear-gradient(45deg,#0047ab,#000133);
+     	color : #ffffff;
+     	height : 65px;
+     	position : fixed;
+     	width : 100%;
+     	z-index : 5;
+     	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+     	top : 0;
+     }
+     
+     .nav_section_content{
+     	display : flex;
+     	align-items : center;
+     }
+     
+     .menu{
+     	padding-right : 15% !important;
+     	padding-left : 2%;
+     }
+     .fa-bars{
+     	font-size : 1.5rem;
+     }
+     .brand_heading{
+     	padding-right : 2% !important;
+     	padding-left : 2.5%;
+		width : 10%!important;
+     }
+     .brand_heading a{
+     	font-weight : 600;
+     	font-size : 1.35rem;
+     	padding-right : 1%;
+     	color : #ffffff;
+     }
+     
+     .brand_heading a:hover{
+     	color : #ffffff;
+     	text-decoration : none;
+     }
+     
+     .login_link{
+     	color :;
+     	font-weight : 600;
+     	font-size : 1rem;
+     	padding-left : 1%;
+     	color : #f2e6ca;
+		visibility : hidden;
+     }
+     .icons{
+     	padding-left : 2%;
+     	
+     }
+     
+     .fa-shopping-cart{
+     	font-size : 1.25rem;
+		position : absolute;
+	    right : 3%;
+		bottom : 40% !important;
+		
+     }
+
+
+
+}
+
+
+
+@media(max-width : 600px){
+     .nav_section{
+     	background : linear-gradient(45deg,#0047ab,#000133);
+     	color : #ffffff;
+     	height : 65px;
+     	position : fixed;
+     	width : 100%;
+     	z-index : 5;
+     	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+     	top : 0;
+     }
+     
+     .nav_section_content{
+     	display : flex;
+     	align-items : center;
+     }
+     
+     .menu{
+     	padding-right : 20%;
+     	padding-left : 2%;
+     }
+     .fa-bars{
+     	font-size : 1.5rem;
+     }
+     .brand_heading{
+     	padding-right : 5%;
+     	padding-left : 2.5%;
+		width : 20%;
+     }
+     .brand_heading a{
+     	font-weight : 600;
+     	font-size : 1.35rem;
+     	padding-right : 1%;
+     	color : #ffffff;
+     }
+     
+     .brand_heading a:hover{
+     	color : #ffffff;
+     	text-decoration : none;
+     }
+     
+     .login_link{
+     	color :;
+     	font-weight : 600;
+     	font-size : 1rem;
+     	padding-left : 1%;
+     	color : #f2e6ca;
+		visibility : hidden;
+     }
+     .icons{
+     	padding-left : 2%;
+     	
+     }
+     
+     .fa-shopping-cart{
+     	font-size : 1.25rem;
+		position : absolute;
+	    right : 3%;
+		bottom : 50%;
+		
+     }
+
+
+}
+
+
+@media(min-width : 600px){
+     .nav_section{
+     	background : linear-gradient(45deg,#0047ab,#000133);
+     	color : #ffffff;
+     	height : 65px;
+     	position : fixed;
+     	width : 100%;
+     	z-index : 5;
+     	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+     	top : 0;
+     }
+     
+     .nav_section_content{
+     	display : flex;
+     	align-items : center;
+     }
+     
+     .menu{
+     	padding-right : 15%;
+     	padding-left : 2%;
+     }
+     .fa-bars{
+     	font-size : 2rem;
+     }
+     .brand_heading{
+     	padding-right : 35%;
+     	padding-left : 2.5%;
+		width : 30%;
+     }
+     .brand_heading a{
+     	font-weight : 600;
+     	font-size : 2rem;
+     	padding-right : 5%;
+     	color : #ffffff;
+     }
+     
+     .brand_heading a:hover{
+     	color : #ffffff;
+     	text-decoration : none;
+     }
+     
+     .login_link{
+     	color :;
+     	font-weight : 600;
+     	font-size : 1.15rem;
+     	padding-left : 3%;
+     	color : #f2e6ca;
+     }
+     .icons{
+     	padding-left : 5%;
+     	
+     }
+     
+     .fa-shopping-cart{
+     	font-size : 1.25rem;
+     }
+
+
+}
+
+
+@media(min-width : 768px){
+     .nav_section{
+     	background : linear-gradient(45deg,#0047ab,#000133);
+     	color : #ffffff;
+     	height : 65px;
+     	position : fixed;
+     	width : 100%;
+     	z-index : 5;
+     	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+     	top : 0;
+     }
+     
+     .nav_section_content{
+     	display : flex;
+     	align-items : center;
+     }
+     
+     .menu{
+     	padding-right : 25%;
+     	padding-left : 2%;
+     }
+     .fa-bars{
+     	font-size : 2rem;
+     }
+     .brand_heading{
+     	padding-right : 35%;
+     	padding-left : 7.5%;
+		width : 35%;
+     }
+     .brand_heading a{
+     	font-weight : 600;
+     	font-size : 2.5rem;
+     	padding-right : 5%;
+     	color : #ffffff;
+     }
+     
+     .brand_heading a:hover{
+     	color : #ffffff;
+     	text-decoration : none;
+     }
+     
+     .login_link{
+     	color :;
+     	font-weight : 600;
+     	font-size : 1.15rem;
+     	padding-left : 3%;
+     	color : #f2e6ca;
+     }
+     .icons{
+     	padding-left : 5%;
+     	
+     }
+     
+     .fa-shopping-cart{
+     	font-size : 1.25rem;
+     }
+
+
+}
+
+
+@media(min-width : 992px){
+     .nav_section{
+     	background : linear-gradient(45deg,#0047ab,#000133);
+     	color : #ffffff;
+     	height : 65px;
+     	position : fixed;
+     	width : 100%;
+     	z-index : 5;
+     	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+     	top : 0;
+     }
+     
+     .nav_section_content{
+     	display : flex;
+     	align-items : center;
+     }
+     
+     .menu{
+     	padding-right : 25%;
+     	padding-left : 2%;
+     }
+     .fa-bars{
+     	font-size : 2rem;
+     }
+     .brand_heading{
+     	padding-right : 35%;
+     	padding-left : 10%;
+		width : 35%;
+     }
+     .brand_heading a{
+     	font-weight : 600;
+     	font-size : 2.5rem;
+     	padding-right : 5%;
+     	color : #ffffff;
+     }
+     
+     .brand_heading a:hover{
+     	color : #ffffff;
+     	text-decoration : none;
+     }
+     
+     .login_link{
+     	color :;
+     	font-weight : 600;
+     	font-size : 1.15rem;
+     	padding-left : 3%;
+     	color : #f2e6ca;
+     }
+     .icons{
+     	padding-left : 5%;
+     	
+     }
+     
+     .fa-shopping-cart{
+     	font-size : 1.25rem;
+     }
+
+
+}
+
+
+
+@media(min-width : 1200px){
+     .nav_section{
+     	background : linear-gradient(45deg,#0047ab,#000133);
+     	color : #ffffff;
+     	height : 65px;
+     	position : fixed;
+     	width : 100%;
+     	z-index : 5;
+     	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+     	top : 0;
+     }
+     
+     .nav_section_content{
+     	display : flex;
+     	align-items : center;
+     }
+     
+     .menu{
+     	padding-right : 25%;
+     	padding-left : 2%;
+     }
+     .fa-bars{
+     	font-size : 2rem;
+     }
+     .brand_heading{
+     	padding-right : 40%;
+     	padding-left : 10%;
+		width : 35%;
+     }
+     .brand_heading a{
+     	font-weight : 600;
+     	font-size : 2.5rem;
+     	padding-right : 5%;
+     	color : #ffffff;
+     }
+     
+     .brand_heading a:hover{
+     	color : #ffffff;
+     	text-decoration : none;
+     }
+     
+     .login_link{
+     	color :;
+     	font-weight : 600;
+     	font-size : 1.15rem;
+     	padding-left : 3%;
+     	color : #f2e6ca;
+     }
+     .icons{
+     	padding-left : 5%;
+     	
+     }
+     
+     .fa-shopping-cart{
+     	font-size : 1.25rem;
+     }
+
+
+}
+
+
+
