@@ -1,0 +1,262 @@
+@media(min-width : 600px){
+/*************************************************START*************************************************/
+    *{
+    	padding : 0;
+    	margin : 0;
+    }
+    
+    :root{
+    	--alpha_bg_color :#cce1ff4C;
+    	--alpha_text_color :#223a66;
+    }
+	
+	
+     /*****************NAV SECTION***************/
+
+/*****FIRST SECTION***/
+
+    .first_section{
+    	width : 100%;
+    	min-height : 80vh;
+    	background-image : url("../AVIF/front-view-cyber-monday-shopping-cart-with-bags-copy-space.avif");
+    	background-size : cover;
+    	margin-top : -200px;
+    }
+    
+    .first_section_heading{
+    	text-align : left;
+    	font-weight : 700;
+        padding-top : 300px;
+        font-size : 2rem;
+        color : #ffffff;
+    }
+
+/******SECOND SECTION******/
+    .second_section{
+    	width : 100%;
+        min-height : 100vh;
+    }
+    
+    
+    
+    .second_section_flex{
+    	display :flex;
+		flex-direction : column;
+    	width : 95%;
+    	padding-top : 50px;
+    	margin-right : auto;
+    	margin-left : auto;
+    	font-size : 1.5rem;
+    }
+    
+    .second_section_flex>.alpha_item{
+    	width : 100%;
+    	background : #ffffff;
+    	display : flex;
+    	margin-right : 1%;
+    	box-shadow: 1px 1px 3px 3px #3e3e3e0c;
+    	min-height : 90vh;
+    }
+    
+    .left_alpha_item{
+        width : 50%;	
+    	padding : 30px;
+    	
+    }
+    
+    .product_name{
+    	font-weight : 600;
+    	color : var(--alpha_text_color);
+    	text-transform : uppercase;
+        font-size : 1.25rem;
+    }
+    
+    .product_description p{
+    	font-size : 1rem;
+    }
+    
+    .product_description ul{
+    	list-style-type : none;
+    }
+    
+    .product_description ul li {
+    	font-size : 1.25rem;
+        color : var(--alpha_text_color);
+    }
+    
+    .icofont-check-alt{
+        font-weight : 600;
+        color : var(--alpha_text_color);
+    }
+    
+    .product_price{
+    	font-weight : 600;
+    	color : var(--alpha_text_color);
+    	font-size : 1.5rem;
+    }
+    
+    .qtn_btn{
+    	display : flex;
+    	height : 50px;
+    	width : 50%;
+    	align-items : center;
+    	background : var(--alpha_text_color);
+    	border-radius :5px;
+    }
+    
+    .plus_btn{
+    	background : none;
+    	border : none;
+    	outline : none;
+    	width : 30%;
+    	color : #ffffff;
+    	font-weight : 600;	
+    	font-size : 1.5rem;
+    }
+    
+    .minus_btn{
+    	background : none;
+    	border : none;
+    	outline : none;	
+    	width : 30%;
+    	color : #ffffff;
+    	font-weight : 600;
+    	font-size : 1.5rem;
+    }
+    .qtn_text{
+       font-size : 1.1rem;	
+    }
+    
+    .qtn_value{
+    	
+    	width : 40%;
+    	border-left : solid #ffffff 1px;
+    	border-right : solid #ffffff 1px;
+    	height : 50px;
+    	line-height : 50px;
+    	padding : 0;
+    	margin : 0;
+    	text-align : center;
+    	color : #ffffff;
+    	font-size : 1.5rem;
+    	font-weight : 600;	
+    }
+    
+    .btn_disabled{
+    	opacity : 0.7; 
+    }
+    
+    .cart_btn{
+    	width : 90%;
+    	height : 40px;
+    	color : #ffffff;
+    	font-weight : 600;
+    	background : linear-gradient(20deg,#fb5b21,#000133,#fb5b21);	
+    	border : none;
+    	border-radius : 5px;
+    	outline : none;
+    	margin-top : 30px;
+    	text-align : center;
+        font-size : 1rem;
+    }
+    
+    .cart_btn .fa-cart-plus{
+    	color : #ffffff;
+    	margin-right : 30px;
+    	margin-left : 10px;
+    }
+    
+    .cart_btn:hover{
+    	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+    }
+    
+    .right_alpha_item{
+    	width : 50%;
+    	position : relative;
+    }
+    
+    .product_image{
+    	width : 100%;
+    	position : absolute;
+    }
+    
+    .product_small_images{
+    	position : absolute;
+    	top : 70%;
+    }
+    
+    .small_image{
+    	width : 65px;
+    	height : 70px;
+    	border : solid 0.5px var(--alpha_text_color);
+    	cursor : pointer;
+    }
+    
+    .prev_img_btn{
+    	position : absolute;
+    	top : 30%;
+    	width : 50px;
+    	height : 50px;
+    	border-radius : 100%;
+    	border : none;
+    	outline : none;
+    }
+    
+    .next_img_btn{
+    	position : absolute;
+    	top : 30%;	
+    	width : 50px;
+    	height : 50px;
+    	border-radius : 100%;
+    	border : none;
+    	outline : none;
+    	right : 0;
+    }
+    
+    
+    
+    .second_section_flex>.beta_item{
+    	width : 100%;
+    	background : #ffffff;
+    	min-height : 75vh;	
+    	padding : 30px;
+        box-shadow: 1px 1px 3px 3px #3e3e3e0c;	
+    }
+    
+    
+    .beta_item .delivery_heading{
+    	color : var(--alpha_text_color);
+    	font-weight : 600;
+    	font-size : 1.5rem;
+    	display : flex;
+    	align-items : center;
+    }
+    
+    .beta_item .icofont-fast-delivery{
+    	font-size : 4rem;
+    }
+    
+    .beta_item p{
+    	font-size : 1.25rem;
+    	color : var(--alpha_text_color);
+    }
+    .share_text{
+    	padding-top : 15px;
+    }
+    
+    .share_icons{
+       margin-top : -10px;	
+    }
+    .shareable_icon{
+    	font-size : 1.5rem;
+    	color : var(--alpha_text_color);
+    	margin : 0 10px 0 10px;
+    }
+
+
+
+/************************************FOOTER*********************************/
+	
+	 
+/*************************************************END*************************************************/
+}
